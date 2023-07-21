@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+.container{
+  display: flex;
+  text-align: center;
+}
+.container div{
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container div img{
+  width: 100%;
+}
+.container div button{
+  background-color: green;
+  color:white;
+}
